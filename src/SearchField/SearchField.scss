@@ -1,0 +1,31 @@
+form {
+    padding: 0 15px;
+}
+input {
+    border-radius: 2px;
+    box-sizing: border-box;
+    height: 40px;
+    margin: 8px 0;
+    padding: 12px 20px;
+    width: 70%;
+}
+
+input[type=text]:focus {
+    background-color: lightblue;
+  }
+
+button {
+    border-radius: 2px;
+    height: 40px;
+    width: 30%;
+}
+
+@media only screen and (min-width: 768px) {
+    input {
+        width: 90%;   
+    }
+    
+    button {
+        width: 10%;
+    }
+ }
